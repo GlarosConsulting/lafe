@@ -41,12 +41,6 @@
       "yarn test --bail --findRelatedTests"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "git-branch-is -r \"^((?!master).)*$\" && lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "^7.6.1",
     "@commitlint/config-conventional": "^11.0.0",

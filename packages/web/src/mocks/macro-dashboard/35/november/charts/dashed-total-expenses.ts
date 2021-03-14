@@ -2,10 +2,6 @@ import IChartData from '@/interfaces/builds/IChartData';
 
 export default {
   categories: [
-    'abr/20',
-    'mai/20',
-    'jun/20',
-    'jul/20',
     'ago/20',
     'set/20',
     'out/20',
@@ -35,7 +31,7 @@ export default {
     {
       color: '#E53E3E',
       name: 'Despesas realizadas',
-      data: [1.59, 5.29, 10.22, 11.69],
+      data: [1.59, 5.29, 10.22, 13.8],
     },
     {
       color: '#4299E1',

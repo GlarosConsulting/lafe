@@ -24,7 +24,7 @@ type Month = ElementType<typeof MONTHS>;
 export default function getMonthNameByIndex(
   monthIndex: number,
 ): Month | undefined {
-  if (monthIndex < 0 || monthIndex > MONTHS.length - 1) {
+  if (monthIndex < 0 || monthIndex > MONTHS.length) {
     return undefined;
   }
 

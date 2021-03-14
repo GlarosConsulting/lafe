@@ -31,7 +31,7 @@ export default {
     {
       color: '#E53E3E',
       name: 'Despesas realizadas',
-      data: [1.73, 2.44, 5.62, 2.38],
+      data: [1.73, 2.44, 5.62, 2.47],
     },
     {
       color: '#4299E1',
